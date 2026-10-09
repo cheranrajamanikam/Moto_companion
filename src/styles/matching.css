@@ -1,0 +1,28 @@
+/* Glassmorphism & Card Effects */
+.glass-card {
+  background: rgba(18, 24, 38, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card-hover {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(24, 32, 50, 0.95);
+  border-color: rgba(249, 115, 22, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -10px rgba(249, 115, 22, 0.15);
+}
+
+.orange-glow {
+  box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.4);
+}
+
+.orange-gradient-text {
+  background: linear-gradient(135deg, #FF8A00 0%, #FF5500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
